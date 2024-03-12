@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;450;500;530;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+.bnr img{
+    filter: brightness(.6);/* Standard */
+    -webkit-filter: brightness(.6); /* WebKit */
+    -moz-filter: brightness(.6); /* Mozilla */
+    -o-filter: brightness(.6); /* Opera */
+}
+section img{
+    width: 100%;
+}
+.welctext-pry h1{
+    color: #fff;
+    font-family: 'Cinzel Decorative';
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.abttext-pry{
+    margin-top: 3em;
+}
+.abttext-pry h2{
+    font-family: 'Dm Serif Display';
+    text-align: center;
+}
+.abttext-pry p{
+    font-family: "poppins";
+    font-size: 1.23em;
+    font-weight: 440;
+    text-align: center;
+}
+.welctext-pry p{
+    color: #fff;
+    font-family: 'Poppins';   
+    font-size: .8em; 
+}
+#prys h1, h4{
+    font-family: "Dm Serif Display";
+}
+#prys h5{
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+#prys p{
+    background-color: rgb(223, 184, 138);
+    padding: .6rem;
+    font-family: "Poppins";
+    font-size: 1.123em;
+    display: none;
+    font-weight: 440;
+}
+#prys p span{
+    font-size: .81em;
+    font-style: italic;
+    font-weight: 440;
+}
+#pryMystry li{
+    border: none;
+    margin: 3px;
+    padding: 7px;
+    display: inline-block;   
+}
+#pryMystry li h6{
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.144em;
+    font-weight: bold;
+}
+#pryMystry li span{
+    font-weight: 550;
+    font-style: normal;
+    font-size: 1em;
+}
+#pryMystry li a{
+    display:block; 
+    text-align: center; 
+    text-decoration: none; 
+    color: #000;
+    font-family: "poppins";
+    font-style: italic;
+}
+#litany li p{
+    font-weight: 540;
+}
+#litany li span{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+}
+
+
+@media (min-width: 768px) { /* Applies to screens wider than 768px (tablets and larger) */
+    .welctext-pry h1{
+      font-size: 5em;
+    }
+    .welctext-pry p{
+        font-size: 1em;
+    }
+}
+@media (min-width: 900px) { /* Applies to screens wider than 768px (tablets and larger) */
+    .welctext-pry h1{
+      font-size: 6em;
+    }
+    .welctext-pry p{
+        font-size: 1em;
+    }
+}

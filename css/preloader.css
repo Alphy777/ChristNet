@@ -1,0 +1,76 @@
+/*------------------ PRELOADER Style Begins Here -------------------------*/
+
+#preloader {
+    position: fixed; /* Make the div stay in the same place even when the page is scrolled */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* These four properties ensure that the div covers the entire viewport */
+    background-color: rgb(212, 174, 125);
+    z-index: 9999; /* This ensures that the preloader appears on top of all other content */
+    display: flex;
+    justify-content: center; /* These two properties center the .loader div inside the #preloader */
+    align-items: center;
+}
+
+  
+  .loader {
+    position: absolute;
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .horizontal {
+    border-radius: 20px;
+    top: 30%;
+    width: 90px;
+    height: 10px;
+    background-color:#fff;
+    position: absolute;
+    animation: pulseAnimation 2s infinite ease-in-out;
+  }
+  
+  .vertical {
+    border-radius: 20px;
+    width: 10px;
+    height: 140%;
+    background-color:#fff;
+    position: absolute;
+    animation: rippleAnimation 2s infinite ease-in-out;
+    transform: rotate(90deg);
+  }
+  
+  @keyframes pulseAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Adjust the scale for desired pulse intensity */
+    }
+  }
+  
+  @keyframes rippleAnimation {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1); /* Adjust the scale for desired ripple intensity */
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* For vertical line height for mobile and tablets */
+@media (max-width: 900px) { /*For Mobiles anf tablets*/
+  .vertical{
+    height: 100%;
+  }
+  
+}
+/*------------------ PRELOADER Style Ends Here -------------------------*/

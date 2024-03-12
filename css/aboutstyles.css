@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;450;500;530;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+.bnr img{
+  filter: brightness(.6);/* Standard */
+  -webkit-filter: brightness(.6); /* WebKit */
+  -moz-filter: brightness(.6); /* Mozilla */
+  -o-filter: brightness(.6); /* Opera */
+}
+section img{
+    width: 100%;
+}
+.welctext-abt h1{
+    color: #fff;
+    font-family: 'Cinzel Decorative';  
+    font-weight: 550; 
+    font-size: 3em; 
+}
+#abthis h1{
+    font-family: "DM Serif Display"
+}
+#abthis p{
+    font-family: "poppins";
+    font-size: 1.23em;
+    font-weight: 440;
+    text-align: justify;
+}
+
+ /*-------------------------- Style for mission and vision BEGINS here -------------------------- */
+.misnvis{
+  background: rgb(212,174,125);
+  background-image: linear-gradient(180deg, rgba(212,174,125,0.9) 0%, rgba(212,174,125,0.6654120266270571) 50%, rgba(212,174,125,0.89) 100%), url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-147812.jpg?t=st=1709242800~exp=1709246400~hmac=70d621f573bac8654682414bf38437a3b717b02cebf39ecc61c5dc1e3e70b399&w=996");
+  width: 100%;
+  height: auto;
+  padding: 2% 2%;
+}
+.mistext h1{
+  font-family: "DM Serif Display";
+  /* font-weight: 600; */
+}
+.mistext p{
+  font-family: "poppins";
+  font-weight: 500;
+}
+.quotext{
+  margin: 25% 0;
+  font-family: "DM Serif Display";
+  text-shadow: -3px 1px 3px black;
+  font-style: italic;
+  color: #fff;
+
+}
+.vistext h1{
+  font-family: "DM Serif Display";
+  /* font-weight: 600; */
+}
+.vistext p{
+  font-family: "poppins";
+  font-weight: 500;
+}
+/*-------------------------- Style for mission and vision ENDS here -------------------------- */
+
+/*-------------------------- Style for CORE TEAM BEGINS here -------------------------- */
+
+.team{
+  margin: 75px 0;
+}
+.team .row{
+  justify-content: center;
+}
+.team h1{
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding-bottom: 10px;
+}
+.team h1::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+.team h2{
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  padding: 40px 0 10px 0;
+}
+.team h2::after{
+  content: '';
+  background: #333;
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+.profile{
+  margin-top: 25px;
+}
+.profile .img-box{
+  opacity: 1;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.profile h3{
+  font-size: 22px;
+  font-family: "Bondai Mona";
+  font-weight: bold;
+  margin-top: 15px;
+}
+.profile h4{
+  font-size: 17px;
+  font-family: "Poppins";
+}.profile h5{
+  font-size: 15px;
+}
+.img-box::after{
+  content: '';
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box ul{
+  margin: 0;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.img-box ul li{
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin: 3px;
+  padding: 7px;
+  display: inline-block;
+}
+.img-box a{
+  color: #fff;
+}
+.img-box:hover::after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box a:hover li{
+  color: #007bff;
+  border: none;
+}
+.img-box:after, .img-box ul, .img-box ul li{
+  transition: all 0.5s ease-in-out 0s;
+}
+@media (max-width: 900px) { /* Applies to screens up to 900px (mobile phones and tablets) */
+
+  .img-box ul.social-media-icons {
+    opacity: 1; /* Always show the icons on mobile */
+  }
+} 
+
+/*-------------------------- Style for CORE TEAM ENDS here -------------------------- */
+
+  @media (min-width: 768px) { /* Applies to screens wider than 768px (tablets and larger) */
+    .welctext-abt h1{
+      font-size: 7em;
+    }
+    .quotext, .quotext h5{
+      margin: 10% 0;
+      font-size: 2.25rem;
+    }
+  }

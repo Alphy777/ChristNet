@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;450;500;530;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+.bnr img{
+    filter: brightness(.6);/* Standard */
+    -webkit-filter: brightness(.6); /* WebKit */
+    -moz-filter: brightness(.6); /* Mozilla */
+    -o-filter: brightness(.6); /* Opera */
+}
+section img{
+    width: 100%;
+}
+.welctext-dom h1{
+    color: #fff;
+    font-family: 'Cinzel Decorative';
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.welctext-dom p{
+    color: #fff;
+    font-family: 'Poppins';   
+    font-size: .8em; 
+}
+#domhis h1{
+    font-family: "DM Serif Display"
+}
+#domhis p{
+    font-family: "poppins";
+    font-size: 1.23em;
+    font-weight: 440;
+    text-align: justify;
+}
+ /*-------------------------- Style for work imgs BEGINS here -------------------------- */
+.team .row{
+    margin: 0 0 75px 0;
+    justify-content: center;
+}
+.work .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+/* .img-box:hover{
+    filter: brightness(.6);   UNCOMMEND IF NEEDED AN HOVER EFFECT FOR THE IMAGES
+} */
+
+/*-------------------------- Style for work imgs ENDS here -------------------------- */
+
+/*-------------------------- Style for CONTRI_PART BEGINS here -------------------------- */
+#domhis h1{
+    font-family: "DM Serif Display"
+}
+#domhis li{
+    font-family: "poppins";
+    font-size: 1em;
+}
+.divider{
+    border-right: 1px solid black;
+}
+.profile img{
+    opacity: 1;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+.proftext{
+    text-align: center;
+    margin-top: 15px;
+}
+.proftext h3{
+    font-size: 25px;
+    font-family: "Bondai Mona";
+    font-weight: bold;
+    margin-top: 15px;
+}
+.proftext h4{
+    font-size: 18px;
+    font-family: "Poppins";
+}
+.proftext h5{
+    font-size: 15px;
+}
+.proftext ul{
+    padding-left: 0;
+}
+.proftext ul li{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: none;
+    margin: 4px;
+}
+.proftext a:hover li{
+    color: #007bff;
+}
+/*-------------------------- Style for CONTRI_PART ENDS here -------------------------- */
+
+.domabt{
+    margin: 75px 0;
+  }
+.domabt.row{
+    justify-content: center;
+}
+.domabt h1{
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #333;
+    padding-bottom: 10px;
+  }
+.domabt h1::after{
+    content: '';
+    background: #333;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+}
+.domabt p{
+    font-family: "poppins";
+    font-size: 1.23em;
+    font-weight: 440;
+    text-align: center;
+}
+.joinbtn{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+.joinbtn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 19px; /* Base size for smaller screens */
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: color 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+.joinbtn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(35, 21, 3, 0.582);
+    z-index: -1;
+    transition: 0.3s;
+}
+.joinbtn a:hover span{
+    width: 100%; 
+}
+
+@media (max-width: 768px){ /*Applies to screens smaller that 768px (Mobiles)*/
+    .divider{
+        display: none;
+    }
+    .proftext{
+        text-align: center;
+        margin-top: 15px;
+    }
+    #mdedoch1{
+        font-size: 2.2em;
+    }
+}
+@media (min-width: 768px) { /* Applies to screens wider than 768px (tablets) */
+    .welctext-dom h1{
+      font-size: 5em;
+    }
+    .welctext-dom p{
+        font-size: 1em;
+    }
+    
+}
+@media (min-width: 900px) { /* Applies to screens wider than 768px (tablets and larger) */
+    .welctext-dom h1{
+      font-size: 6em;
+    }
+    .welctext-dom p{
+        font-size: 1em;
+    }
+}
