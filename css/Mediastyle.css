@@ -25,6 +25,15 @@ section img{
     font-family: 'Poppins';   
     font-size: .8em; 
 }
+.library h1{
+    font-family: "Dm Serif Display";
+}
+.modal-body img{
+    float: left;
+    width: auto;
+    height: 30rem;
+    padding: 10px;
+  }
 @media (min-width: 768px) { /* Applies to screens wider than 768px (tablets only (as we have given another media 
                                 style with 900px.) ) */
     .welctext-media h1{

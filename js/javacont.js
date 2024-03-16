@@ -74,7 +74,7 @@ $("#submit-form").submit(function(e){
        data:$(this).serialize(),
       method:"post",
       success:function (response){
-        window.location.href = "https://alphy777.github.io/FaithCompas/success.html";
+        window.location.href = "https://alphy777.github.io/ChristNet/success.html";
       },
       error:function (err){
         alert("Something Error")
