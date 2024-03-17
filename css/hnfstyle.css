@@ -121,7 +121,8 @@ header
     font-size: 1.23em;
 }
 #lcft:hover{
-    color: #ffffff8b;
+    color: #1e01018d;
+    font-weight: 500;
 }
 .social-links a{
 	display: inline-block;
@@ -159,7 +160,8 @@ header
     color: #fff;
 }
 .fttr a:hover{
-    color: #ffffff8d;
+    color: #1e01018d;
+    font-weight: 500;
 }
 
 /* ------------------ Footer Style Ends Here ------------------------- */

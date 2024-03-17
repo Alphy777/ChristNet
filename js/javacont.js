@@ -68,7 +68,8 @@ $("#submit-form").submit(function(e){
   e.preventDefault();
   
   // Check if the form is valid
-  if($(this).valid()){
+  if($(this).valid()){ 
+    alert("Submitting, please wait!");
     $.ajax({
       url:"https://script.google.com/macros/s/AKfycbz4Cs83XvRjgjmklDDMXtmM2l3dLo8bQfzBm9qSb1OkPMz_4Y6sy96bBNcBmLNEEuCURA/exec",
        data:$(this).serialize(),
