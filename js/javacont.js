@@ -56,7 +56,7 @@ $(document).ready(function() {
     event.preventDefault(); // Prevent default link behavior
 
     if (/android/i.test(navigator.userAgent)) {
-      window.location.href = "mailto:email@christuniversity.in"; // Use mailto for Android
+      window.location.href = "mailto:acc.kengeri@christuniversity.in"; // Use mailto for Android
     } else {
       window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=email@christuniversity.in"; // Open Gmail web app for others
     }
