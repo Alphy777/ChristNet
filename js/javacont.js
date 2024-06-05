@@ -58,7 +58,7 @@ $(document).ready(function() {
     if (/android/i.test(navigator.userAgent)) {
       window.location.href = "mailto:acc.kengeri@christuniversity.in"; // Use mailto for Android
     } else {
-      window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=email@christuniversity.in"; // Open Gmail web app for others
+      window.location.href = "https://mail.google.com/mail/?view=cm&fs=1&to=acc.kengeri@christuniversity.in"; // Open Gmail web app for others
     }
   });
 });
