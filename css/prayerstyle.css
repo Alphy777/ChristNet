@@ -39,11 +39,12 @@ section img{
     font-size: .8em; 
 }
 #prys h1, h4{
-    font-family: "Dm Serif Display";
+    font-family: "Poppins";
+    font-weight: 530;
 }
 #prys h5{
-    font-family: "Times New Roman";
-    font-weight: bold;
+    font-family: "Poppins";
+    
 }
 #prys p{
     background-color: rgb(223, 184, 138);

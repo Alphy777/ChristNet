@@ -92,9 +92,18 @@ header
     border: none;
     padding-top: 6%;
 }
+.dropdown-menu li a{
+    cursor: pointer;
+}
+.dropdown-menu li a:hover{
+    filter: brightness(2);
+}
+.dropdown-menu li:nth-child(5) .dropdown-item {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 .navbar-nav > li > .dropdown-menu a:link,
 .navbar-nav > li > {
-    
     border: none;
     cursor: pointer;
 }
@@ -102,14 +111,6 @@ header
  .navbar-nav > li > .dropdown-menu a{
     color: #ffff;
     background: rgba(106, 82, 64, 0.712);
-}
-.ac{
-    cursor: pointer;
-
-}
-
-.ac:hover{
-    text-shadow: -1px 1px 6px black;
 }
 /*------------------ Header Style Ends Here -------------------------*/
 
@@ -121,9 +122,15 @@ header
     font-size: 1.23em;
 }
 #lcft:hover{
-    color: #1e01018d;
+    color: #fefefe;
     font-weight: 500;
 }
+.map_container {
+    height: 360px;
+}
+.map {
+  height: 100%;
+ }
 .social-links a{
 	display: inline-block;
 	height: 40px;
@@ -160,7 +167,7 @@ header
     color: #fff;
 }
 .fttr a:hover{
-    color: #1e01018d;
+    color: #fefefe;
     font-weight: 500;
 }
 

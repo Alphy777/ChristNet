@@ -91,15 +91,15 @@ body{
   width: 100%;
 }
 .versetxt h1{
-    font-family: "DM Serif Display";
-    font-size: 2.5em;
+    font-family: "Oswald";
+    font-size: 2.5rem;
     font-weight: 600;
 }
 .versetxt p{
     font-family: "Poppins";
     font-weight: 600;
-    text-align: right;
-    padding-right: 27%;
+    /* text-align: right;
+    padding-right: 27%; */
 }
 
 .abtimg{
@@ -111,7 +111,7 @@ body{
   margin-left: 20px;
 }
 #abt h1{
-    font-family: "DM Serif Display";
+    font-family: "Oswald";
 }
 #abt p{
     
@@ -134,12 +134,14 @@ body{
 
 #serv-time h1{
     color: #000;
-    font-family: "DM Serif Display";
+    font-family: "Oswald";
 }
 #serv-time h2{
     color: #061b02;
     font-family: "Oswald";
+    font-size: 1.52rem;
 }
+
 #serv-time p{
     font-family: "Poppins";
     font-weight: 440;
@@ -153,14 +155,15 @@ body{
 } */
 
 .texfac h1, .texent h1{
-    font-family: "DM Serif Display";
+    font-family: "Oswald";
     color: #000;
 }
 .slide-text {
     text-align: center;
-    font-family: "Oswald";
+    font-family: "Poppins";
     color: #000; /* Adjust text color as needed */
     padding: 20px;
+
 }
 
 /* Events Slider */
